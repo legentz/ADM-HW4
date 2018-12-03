@@ -21,8 +21,8 @@
 * shared memory hashtable required!
 
 ## Datasets
-20k items were scraped from the website 
-[information-dataset.tsv](https://drive.google.com/file/d/1Byqz5YcD5-FESIq0Yi7HDlTqlxkCVbC6/view?usp=sharing)
-[description-dataset-with-header.tsv](https://drive.google.com/file/d/1gb0pZrwiPuo_AIrHX58qSKi20JS3ss6q/view?usp=sharing)
+~20k items were scraped: 
+1. [information-dataset.tsv](https://drive.google.com/file/d/1Byqz5YcD5-FESIq0Yi7HDlTqlxkCVbC6/view?usp=sharing)
+2. [description-dataset-with-header.tsv](https://drive.google.com/file/d/1gb0pZrwiPuo_AIrHX58qSKi20JS3ss6q/view?usp=sharing)
 
 Datasets have to be extracted using [pbzip2](https://launchpad.net/pbzip2/+download) or [bzip](http://www.bzip.org/). 
