@@ -12,7 +12,7 @@ replaced the ground floor, T with 0
 the half floor, R we replace it with 0.5
 the loft, A as 11
 the basement, S with -1
-and 11+ as 12
+and 11+ as 12.
 We also cleaned out locali and bagni to removed the + signs.
 
 ## The wordcloud 
