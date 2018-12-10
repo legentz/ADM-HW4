@@ -16,7 +16,7 @@ and 11+ as 12.
 We also cleaned out locali and bagni to removed the + signs.
 
 ## Clustering on the Description Dataset
-Using the TFIDF to obtain the matrix used for this clustering. Here, we still implemented the MiniBatchKmeans since our data set was above 10K. We also used the loader library as found attached to load our dataset.
+Using the TFIDF to obtain the matrix used for this clustering. Here, we still implemented the MiniBatchKmeans since our data set was above 10K. We also used the loader library as found attached to load our dataset into memory.
 
 ## The wordcloud 
 This was structured using the wordcloud module. The dataset was first preprocessed using the utils.py library as attached to the repository.
