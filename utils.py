@@ -33,6 +33,9 @@ def compute_tfidf(word_freq, n_words_doc, n_docs, n_docs_with_word):
 def cosine_similarity(vec_src, vec_tgt):
 	return 1 - spatial.distance.cosine(vec_src, vec_tgt)
 
+def jaccard_similarity(x, y):
+    return len(x.intersection(y)) / len(x.union(y))
+
 def tfidf_inverse_index(voc2doc, doc2voc):
 
 	# inverse index
