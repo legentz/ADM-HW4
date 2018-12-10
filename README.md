@@ -1,7 +1,7 @@
 ## The datasets created was done by the scrapping house announcements in Rome from Immobiliare.it 
 
 ## Using Scraper.py libriary
-The Scraper.py attached was used to parse the hmtl to obtain our datasets on information which consists of announcements, price, locali, baqgni and piano and the description dataset which contains words on used for the  annoucements. This contained the Beautiful Soup library
+The Scraper.py attached was used to parse the hmtl to obtain our datasets on information which consists of announcements, price, locali, bagni and piano and the description dataset which contains words used for the each  annoucement. The scraper contains the Beautiful Soup library which is mainly used as the tool for parsing the website immobiliare.it to obtain the datasets.
 
 ## Clustering on the Information Dataset 
 Our dataset was of length 20013 hence we implemented the MiniBatchKmeans algorithm to perform the clustersing and using the Elbow Method choose th]e optimal number of clusters, k. 
